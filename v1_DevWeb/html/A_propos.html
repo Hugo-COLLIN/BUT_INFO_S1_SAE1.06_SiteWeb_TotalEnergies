@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>A propos</title>
+		<link rel="stylesheet" href="../css/global.css" />
+		<link rel="stylesheet" href="../css/A_propos.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Projet Site web</h1>
+		</header>
+
+		<nav>
+			<a href="../index.html">Accueil</a>
+
+			<div class="rubrique">
+				<a href="rubrique1/index.html">Rubrique 1</a>
+				<br/>
+				<div class="sous">
+					<a href="rubrique1/article1.html">Article 1</a>
+					<a href="rubrique1/article2.html">Article 2</a>
+				</div>
+			</div>
+
+			<div class="rubrique">
+				<a href="rubrique2/index.html">Rubrique 2</a>
+				<br/>
+				<div class="sous">
+					<a href="rubrique2/article3.html">Article 3</a>
+					<a href="rubrique2/article4.html">Article 4</a>
+				</div>
+			</div>
+	 
+			<div class="rubrique">
+				<a href="rubrique3/index.html">Rubrique 3</a>
+				<br/>
+				<div class="sous">
+					<a href="rubrique3/article5.html">Article 5</a>
+					<a href="rubrique3/article6.html">Article 6</a>
+				</div>
+			</div>
+
+			<a href="A_propos.html">A propos</a>
+		</nav>
+
+		
+		<main>
+			<h2>A propos</h2>
+			<article>
+				<section>
+					<p>
+						Ce site a été réalisé par Hugo COLLIN et Xin ZHANG dans le cadre 
+						de la SAÉ "Découverte de l’environnement économique et écologique" 
+						de BUT Informatique 1re année à l’IUT Nancy-Charlemagne. Le site 
+						est coloré mais son thème est neutre afin de couvrir un large éventail 
+						de thématiques possibles. Il est accessible via l’URL
+						<a href="https://webetu.iutnc.univ-lorraine.fr/www/collin174u/">https://webetu.iutnc.univ-lorraine.fr/www/collin174u/Projet_Site_web</a>.
+						Ci-dessous le détail des différentes maquettes du site :
+						 
+						
+					</p>
+				</section>
+				<section>
+					<h4>I. Site global (éléments récurrents)</h4>
+					<p>
+						Toutes les pages du site sont composées d’un header contenant le titre du site (dans des balises h1). 
+						En dessous on retrouve un menu de navigation (nav), contenant des liens vers les pages principales du site : Accueil, les 3 rubriques et la page A propos. 
+						Les rubriques ont chacune un sous-menu contenant les liens vers les articles correspondants, qui apparait lors du survol de la souris sur la rubrique. 
+						On trouve ensuite un main qui correspond au contenu des pages. Il est composé du titre de la page (h2) et d’une balise article où est présent le reste du contenu. Ce contenu a une largeur maximale de 1000px et prend sinon la largeur du viewport. Les paragraphes sont alignés à gauche et les titres (h3 et h4) sont centrés. 
+						Le footer, en bas de page, est composé de paragraphes alignés contenant des renseignements sur la création du site.
+						Lors de l’affichage sur un appareil mobile (largeur inférieure à 580px), le menu de navigation passe en-dessous du main et les sous-menus apparaissent, afin de faciliter la navigation sur le site.
+					</p>
+					<div>
+						<img src="../images/global_pc.png" alt="Global ordinateur" />
+						<img src="../images/global_mobile.png" alt="Global mobile" />	
+					</div>
+				</section>
+				<section>
+					<h4>II. Accueil</h4>
+					<p>
+						La page d’accueil se compose d’une section Présentation qui contient son titre (h3) et un paragraphe de présentation, et d’une section Rubrique qui contient un h3 et 3 autres "sous-sections" correspondant aux rubriques du site. Ces dernières sont alignées, et contiennent un titre (h4), une image de présentation, un paragraphe de description et un lien vers la page associée.
+						Sur appareils mobiles, les sous-sections s’affichent les unes en dessous des autres.
+					</p>
+					<div id="home">
+						<img src="../images/home_pc.png" alt="Accueil ordinateur" />
+						<img src="../images/home_mobile.png" alt="Accueil mobile" />	
+					</div>
+				</section>
+	
+				<section>
+					<h4>III. Rubrique</h4>
+					<p>
+						Chaque rubrique se compose d’un paragraphe de présentation, suivi du titre "Tous les articles" (h3) et de la présentation des articles correspondants. Chaque présentation d’article est composée du titre de l’article (h4), d’une image alignée à gauche, et d’un bloc aligné à droite contenant un paragraphe résumant l’article et un lien conduisant vers l’article.
+						En version mobile, l’image apparait au-dessus de la description de l’article.
+					</p>
+					<div>
+						<img src="../images/rubrique_pc.png" alt="Rubrique ordinateur" />
+						<img src="../images/rubrique_mobile.png" alt="Rubrique mobile" />	
+					</div>
+				</section>
+	
+				<section>
+					<h4>IV. Article</h4>
+					<p>
+						Un article se compose de l’alternance entre paragraphes et images centrées. 
+						Les images ont une taille adaptée à la largeur de l’écran.
+					</p>
+					<div>
+						<img src="../images/article_pc.png" alt="Article ordinateur" />
+						<img src="../images/article_mobile.png" alt="Article mobile" />
+					</div>
+				</section>
+	
+				<section>
+					<h4>V. A propos</h4>
+					<p>
+						Cette page contient un paragraphe d’information suivi de sections contenant la présentation des différents types de pages du site et la conclusion. 
+						Chaque section contient un paragraphe suivi des maquettes en version ordinateur et mobile. La taille des images varie selon la largeur de l’écran. 
+					</p>
+					<div>
+						<img src="../images/Apropos_pc.png" alt="A propos ordinateur" />
+						<img src="../images/Apropos_mobile.png" alt="A propos mobile" />
+					</div>
+				</section>
+	
+				<section class="conclusion">
+					<h4>Conclusion</h4>
+					<p>
+						Le site web, codé uniquement en HTML et CSS, est composé de 4 catégories de pages : l’accueil, les rubriques, les articles et la page A propos.
+						Chaque page HTML est liée à 2 fichiers CSS : un fichier global.css regroupant les règles communes à toutes les pages du site, et un fichier type_de_page.css qui correspond au style spécifique au type de page (Accueil, Rubrique, Article ou A propos).
+						Nous avons rencontré quelques difficultés avec la distorsion des images lors de l’utilisation de display:flex, notamment sur cette page pour afficher correctement les maquettes.
+					</p>
+					</section>
+			</article>
+		</main>
+		
+
+		<footer>
+			<p>Hugo COLLIN, Xin ZHANG, Groupe E</p>
+			<p>04/11/2021</p>
+			<p>S1 Web - BUT INFO A1 - IUT NC</p>
+		</footer>
+
+	</body>
+</html>

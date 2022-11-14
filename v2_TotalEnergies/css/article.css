@@ -1,0 +1,17 @@
+main img {
+  margin: 2.5vh 0;
+  max-height:400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 580px) {
+  main img {
+    width:90%;
+  }
+}
+
+#Rimg1{
+  float: right;
+  width: 40%;
+  margin: 0px 0px 5px 5px;
+}

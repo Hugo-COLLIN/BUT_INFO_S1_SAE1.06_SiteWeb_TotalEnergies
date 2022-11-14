@@ -1,0 +1,40 @@
+section{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 10vh;
+  margin-top: 5px;
+}
+
+h1{
+  order: 2;
+}
+
+section p{
+  order: 3;
+}
+
+section div{
+  padding: 0 8vw 0 8vw;
+  display: flex;
+  justify-content: space-around;
+  order: 4;
+}
+
+
+.conclusion p{
+  margin-top: 1vh;
+}
+
+section div{
+  margin-top:10px;
+}
+
+img{
+  max-height: 380px;
+  max-width: 400px;
+}
+
+div img:first-child {
+  height:40%;
+}

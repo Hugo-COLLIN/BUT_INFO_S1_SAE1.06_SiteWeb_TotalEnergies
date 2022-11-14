@@ -1,0 +1,11 @@
+main img {
+  margin: 2.5vh 0;
+  max-height:400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 580px) {
+  main img {
+    width:90%;
+  }
+}

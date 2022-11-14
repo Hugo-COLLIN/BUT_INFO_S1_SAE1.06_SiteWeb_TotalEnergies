@@ -1,0 +1,42 @@
+.rub{
+    display: flex;
+}
+
+div{
+    text-align:left;
+}
+
+img{
+    margin-right: 1.5vw;
+    min-width:150px;
+}
+
+button{
+    margin-top:  1vh;
+}
+
+h4 {
+    text-align:left;
+}
+
+@media screen and (max-width: 580px) {
+    .rub {
+        display:block;
+    }
+
+    img {
+        max-width:150%;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+    section div{
+        text-align: center;
+    }
+
+    #h4{
+        padding-top: 3vh;
+    }
+}

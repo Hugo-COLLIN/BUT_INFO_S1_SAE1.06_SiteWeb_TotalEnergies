@@ -1,0 +1,32 @@
+#rubriques {
+    display: flex;
+}
+
+#rubriques section {
+    padding:1em 0;
+    border-right: 2px solid darksalmon;
+}
+
+#rubriques section:last-child {
+    border:none;
+}
+
+#presentation {
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 600px){
+    #rubriques {
+        display: block;
+    }
+
+    #rubriques section {
+        padding:1em 0;
+        border-right:none;
+        border-bottom: 2px solid darksalmon;
+    }
+
+    #rubriques section:last-child {
+        border:none;
+    }
+}
